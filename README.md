@@ -89,7 +89,7 @@ The model is trained on text data with the following features:
 - Based on the GPT-2 architecture
 - Uses Hugging Face's tokenizer
 - Implements techniques from the GPT-3 paper
-
+*
 2025-02-15 23:55:35,806 - INFO - Starting training with device: cuda
 2025-02-15 23:55:35,806 - INFO - Model configuration: GPTConfig(block_size=1024, vocab_size=50304, n_layer=12, n_head=12, n_embd=768)
 2025-02-15 23:55:35,812 - INFO - Batch size: 32, Context length: 128
@@ -5916,4 +5916,4 @@ Generated Sample:
 2025-02-16 00:14:59,167 - INFO - Loss threshold reached at step 5726. Stopping training.
 2025-02-16 00:15:00,984 - INFO - Final model saved to final_model.pt
 2025-02-16 00:15:00,990 - INFO - Training completed. Final loss: 0.09935028105974197
-
+*
