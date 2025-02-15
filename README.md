@@ -90,9 +90,9 @@ The model is trained on text data with the following features:
 - Uses Hugging Face's tokenizer
 - Implements techniques from the GPT-3 paper
 ## Logs
-2025-02-15 23:55:35,806 - INFO - Starting training with device: cuda__
-2025-02-15 23:55:35,806 - INFO - Model configuration: GPTConfig(block_size=1024, vocab_size=50304, n_layer=12, n_head=12, n_embd=768)__
-2025-02-15 23:55:35,812 - INFO - Batch size: 32, Context length: 128__
+2025-02-15 23:55:35,806 - INFO - Starting training with device: cuda 
+2025-02-15 23:55:35,806 - INFO - Model configuration: GPTConfig(block_size=1024, vocab_size=50304, n_layer=12, n_head=12, n_embd=768) 
+2025-02-15 23:55:35,812 - INFO - Batch size: 32, Context length: 128 
 2025-02-15 23:55:36,592 - INFO - Step      0 | loss: 10.9529 | dt: 779.85ms | tok/sec: 5252.27 | norm: 8.01 | lr: 0.000060
 2025-02-15 23:55:36,805 - INFO - Step      1 | loss: 9.8161 | dt: 211.22ms | tok/sec: 19392.14 | norm: 5.38 | lr: 0.000120
 2025-02-15 23:55:37,019 - INFO - Step      2 | loss: 9.3790 | dt: 214.24ms | tok/sec: 19118.31 | norm: 6.17 | lr: 0.000180
